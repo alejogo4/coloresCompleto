@@ -10,6 +10,13 @@
  */
 package Formulario;
 
+import views.Factura;
+import views.ConsultasClientes;
+import views.ConsultasFacturas;
+import views.ConsultasProductos;
+import views.IngresoProductos;
+import views.usuarios;
+import views.IngresoCliente;
 import claseConectar.conectar;
 import java.sql.*;
 import java.util.logging.Level;
@@ -91,6 +98,7 @@ public class ventanaadmin extends javax.swing.JFrame {
         lblusu.setBackground(new java.awt.Color(255, 255, 255));
         lblusu.setFont(new java.awt.Font("Calibri", 0, 11)); // NOI18N
         lblusu.setForeground(new java.awt.Color(255, 255, 255));
+        lblusu.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblusu.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/clientes.png"))); // NOI18N

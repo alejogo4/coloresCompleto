@@ -10,6 +10,12 @@
  */
 package Formulario;
 
+import views.Factura;
+import views.ConsultasClientes;
+import views.ConsultasFacturas;
+import views.ConsultasProductos;
+import views.IngresoProductos;
+import views.IngresoCliente;
 import claseConectar.conectar;
 import java.sql.*;
 import java.util.logging.Level;
