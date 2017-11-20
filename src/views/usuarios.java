@@ -279,7 +279,7 @@ private void btneliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-F
     else
     {
          idfila= tbusuario.getValueAt(fila, 0).toString();
-         JOptionPane.showMessageDialog(this, "debe Ingresar la Contraseña para Eliminar algun Usuario");
+         JOptionPane.showMessageDialog(this, "Ingresa la contraseña para poderlo eliminar");
          txtcontra.requestFocus();
     }
 }//GEN-LAST:event_btneliminarActionPerformed
