@@ -91,7 +91,7 @@ FROM
 				<textElement>
 					<font size="12"/>
 				</textElement>
-				<text><![CDATA[IGV]]></text>
+				<text><![CDATA[IVA]]></text>
 			</staticText>
 			<staticText>
 				<reportElement mode="Opaque" x="432" y="0" width="46" height="18" forecolor="#FFFFFF" backcolor="#999999"/>

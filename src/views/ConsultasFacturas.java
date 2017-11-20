@@ -36,7 +36,7 @@ public class ConsultasFacturas extends javax.swing.JInternalFrame {
     void cargartodasfacturas()
     {
         DefaultTableModel tabla= new DefaultTableModel();
-        String []titulos={"NUMERO","COD. CLIENTE","RUC CLIENTE","SUBTOTAL","IGV","TOTAL","FECHA"};
+        String []titulos={"NUMERO","COD. CLIENTE","RUC CLIENTE","SUBTOTAL","IVA","TOTAL","FECHA"};
         tabla.setColumnIdentifiers(titulos);
         this.tbfacturas.setModel(tabla);
         String consulta= "SELECT * FROM factura";
@@ -241,7 +241,7 @@ String fec=""+formatofecha.format(fecha);
         consulta= "SELECT * FROM factura ";
     }
         DefaultTableModel tabla= new DefaultTableModel();
-        String []titulos={"NUMERO","COD. CLIENTE","RUC CLIENTE","SUBTOTAL","IGV","TOTAL","FECHA"};
+        String []titulos={"NUMERO","COD. CLIENTE","NIT CLIENTE","SUBTOTAL","IVA","TOTAL","FECHA"};
         tabla.setColumnIdentifiers(titulos);
         this.tbfacturas.setModel(tabla);
         

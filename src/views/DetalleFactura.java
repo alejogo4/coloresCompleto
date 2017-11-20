@@ -66,7 +66,7 @@ public class DetalleFactura extends javax.swing.JInternalFrame {
 
         jLabel3.setText("Cod. Cliente");
 
-        jLabel4.setText("RUC");
+        jLabel4.setText("NIT");
 
         jLabel5.setText("Fecha:");
 
@@ -90,7 +90,7 @@ public class DetalleFactura extends javax.swing.JInternalFrame {
 
         jLabel6.setText("Subtotal:");
 
-        jLabel7.setText("IGV:");
+        jLabel7.setText("IVA:");
 
         jLabel8.setText("Total a Pagar:");
 
@@ -125,7 +125,6 @@ public class DetalleFactura extends javax.swing.JInternalFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(txtigv, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(23, 23, 23)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jLabel5)
