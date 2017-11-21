@@ -105,7 +105,7 @@ public class ConsultasClientes extends javax.swing.JInternalFrame {
         });
 
         buttonGroup1.add(rddni);
-        rddni.setText("Buscar Clientes por DNI:");
+        rddni.setText("Buscar Clientes por NIT:");
         rddni.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 rddniActionPerformed(evt);

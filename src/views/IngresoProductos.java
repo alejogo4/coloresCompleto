@@ -65,7 +65,7 @@ public class IngresoProductos extends javax.swing.JInternalFrame {
     txtstock.setText("");
     }
     void desbloquear(){
-    txtcod.setEnabled(true);
+    txtcod.setEnabled(false);
     txtdes.setEnabled(true);
     txtpre.setEnabled(true);
     txtstock.setEnabled(true);

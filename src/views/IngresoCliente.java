@@ -60,7 +60,7 @@ public class IngresoCliente extends javax.swing.JInternalFrame {
     
     }
     void desbloquear(){
-    txtcod.setEnabled(true);
+    txtcod.setEnabled(false);
     txtnom.setEnabled(true);
     txtape.setEnabled(true);
     txtdir.setEnabled(true);
@@ -219,6 +219,12 @@ public class IngresoCliente extends javax.swing.JInternalFrame {
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Detalle Cliente"));
 
         jLabel1.setText("Codigo:");
+
+        txtcod.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtcodActionPerformed(evt);
+            }
+        });
 
         jLabel2.setText("Nombres:");
 
@@ -523,6 +529,7 @@ private void btnnuevoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRS
      desbloquear();
      limpiar();
      codigosclientes();
+     
      txtcod.requestFocus();
 }//GEN-LAST:event_btnnuevoActionPerformed
 
@@ -672,6 +679,10 @@ private void mnmodificarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-F
         JOptionPane.showMessageDialog(this,"No ha seleccionado ");
     }
 }//GEN-LAST:event_mnmodificarActionPerformed
+
+    private void txtcodActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtcodActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtcodActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

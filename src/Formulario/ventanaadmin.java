@@ -128,6 +128,11 @@ public class ventanaadmin extends javax.swing.JFrame {
         btn_descuentos.setFont(new java.awt.Font("Calibri", 0, 14)); // NOI18N
         btn_descuentos.setForeground(new java.awt.Color(255, 255, 255));
         btn_descuentos.setText("DESCUENTOS");
+        btn_descuentos.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btn_descuentosMouseClicked(evt);
+            }
+        });
 
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/promocion.png"))); // NOI18N
 
@@ -407,6 +412,12 @@ private void jMenuItem15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-F
     fac.show();
     // TODO add your handling code here:
     }//GEN-LAST:event_btn_facturaMouseClicked
+
+    private void btn_descuentosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_descuentosMouseClicked
+     //Promo pro = new Promo();
+     //jdpescritorio.add(pro);
+     //pro.show();
+    }//GEN-LAST:event_btn_descuentosMouseClicked
 
     /**
      * @param args the command line arguments

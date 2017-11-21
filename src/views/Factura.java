@@ -332,9 +332,9 @@ public class Factura extends javax.swing.JInternalFrame {
 
         jLabel10.setText("Direccion:");
 
-        jLabel9.setText("DNI:");
+        jLabel9.setText("CC:");
 
-        jLabel13.setText("RUC:");
+        jLabel13.setText("NIT:");
 
         jLabel12.setText("Fecha:");
 
@@ -387,8 +387,8 @@ public class Factura extends javax.swing.JInternalFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel8)
-                    .addComponent(jLabel9)
-                    .addComponent(jLabel10))
+                    .addComponent(jLabel10)
+                    .addComponent(jLabel9, javax.swing.GroupLayout.Alignment.TRAILING))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(jPanel2Layout.createSequentialGroup()
@@ -458,7 +458,7 @@ public class Factura extends javax.swing.JInternalFrame {
 
         jLabel18.setText("SubTotal:");
 
-        jLabel19.setText("IGV:");
+        jLabel19.setText("IVA:");
 
         jLabel20.setText("Total:");
 
